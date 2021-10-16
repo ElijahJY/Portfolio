@@ -1,0 +1,64 @@
+header {
+    background-color: red;
+    height:100px;
+}
+
+body { 
+    font-family: "custome" ;
+}
+nav {
+    float:right;
+    display:flex;
+    flex-direction: row;
+    font-size:28px;
+
+}
+
+
+
+nav > ul {
+    list-style-type:none;
+}
+
+nav > ul >li {
+    display:inline;
+    text-align:right;
+    margin-right:20px
+}
+
+nav >ul >li >a {
+    text-decoration: none;
+color:white;
+}
+
+section {
+    width:95%; 
+    margin: 25px; 
+}
+/* stlyling about me*/
+.first-heading {
+    float:left;
+}
+
+.profile-pic {
+    float:right;
+    border-radius: 30%;
+    padding: 25px; 
+    margin: 10px; 
+}
+
+#About-Me{
+    clear: both; 
+}
+.Stuff-Me > h2 {
+    float: right; 
+    margin-right: 10%;
+}
+
+footer > div> ul  {
+    list-style-type:none;
+    display:inline;
+    flex-direction: column;
+    float:right;
+
+}
