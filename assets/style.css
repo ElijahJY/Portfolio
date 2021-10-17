@@ -1,16 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
 header {
-    background-color: red;
+    background-color: lightblue;
+    
     height:100px;
 }
 
 body { 
-    font-family: "custome" ;
+    display: flex;
+    flex-wrap:wrap;
+    font-family: 'Montserrat', sans-serif;
+    line-height:1.5em;
 }
 nav {
     float:right;
     display:flex;
     flex-direction: row;
     font-size:28px;
+   
+    
 
 }
 
@@ -18,12 +32,15 @@ nav {
 
 nav > ul {
     list-style-type:none;
+    padding-top:30px;
+    
 }
 
 nav > ul >li {
     display:inline;
     text-align:right;
-    margin-right:20px
+   
+    margin-right:20px;
 }
 
 nav >ul >li >a {
@@ -37,6 +54,7 @@ section {
 }
 /* stlyling about me*/
 .first-heading {
+    display:inline;
     float:left;
 }
 
@@ -55,10 +73,31 @@ section {
     margin-right: 10%;
 }
 
-footer > div> ul  {
-    list-style-type:none;
-    display:inline;
-    flex-direction: column;
-    float:right;
 
+.footer {
+    display:flex;
+    width:100%;
+    height:100px;
+    justify-content: space-between;
+    background-color: lightblue;
+   
+    
 }
+
+.footer ul {
+    height: 80%;
+    background-color: lightblue;
+}
+
+.footer ul li {
+    
+    list-style: none;
+    
+    background-color: lightblue;
+}
+
+footer ul li a {
+    text-decoration: none;
+    width:100%;
+}
+
